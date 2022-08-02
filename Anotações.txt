@@ -1,0 +1,27 @@
+_________________ VARIÁVEL ______________________
+var x = 0; #declaração de variável em JS
+
+
+______________ ESTRUTURA DE PROJETO ______________
+
+[ assets → css → js ] → index.html # estrutura
+
+pasta [assets] → arquivos .js .css .jpj ( html nao vai na pasta )
+
+<link rel="stylesheet" href="assets/css/style.css"> # CSS
+   
+<script src="assets/js/scripts.js"></script> #JS
+
+______________DOM ___________________________
+# DOCUMENT OBJECT MODEL 
+# É A ESTRUTURA DOS ELEMENTOS NA PASTA
+
+______________ Mudando a cor de um texto ____________________________
+
+document.getElementsByTagName("h1") # acessa elemento h1
+
+var heading1 = document.getElementsByTagName("h1")[0] # guarda o conteudo h1 na variavel
+
+heading1.style.color = 'red' # muda a cor do texto em h1
+
+
