@@ -6,7 +6,9 @@ function increment(){
     currentNumberWrapper.innerHTML = currentNumber;
     if (currentNumber > 0){
         currentNumberWrapper.style.color = 'chartreuse';
-    } else{
+    } else if (currentNumber < 0){
+        currentNumberWrapper.style.color = 'red';
+    } else {
         currentNumberWrapper.style.color = 'white';
     }
 }
@@ -16,7 +18,9 @@ function decrement(){
     currentNumberWrapper.innerHTML = currentNumber;
     if (currentNumber < 0){
         currentNumberWrapper.style.color = 'red';
-    } else{
+    } else if (currentNumber > 0){
+        currentNumberWrapper.style.color = 'chartreuse';
+    }else {
         currentNumberWrapper.style.color = 'white';
     }
 }
