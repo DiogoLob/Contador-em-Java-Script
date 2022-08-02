@@ -1,0 +1,1 @@
+<img src="public/contador.PNG" alt="Imagem do projeto">
